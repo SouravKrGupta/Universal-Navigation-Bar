@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar with Search</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <nav>
+        <ul>
+           <li class="logo">Assignment Works</li>
+           <li class="btn"><span class="fas fa-bars"></span></li>
+           <div class="items">
+              <li><a href="#">Home</a></li>
+              <li class="subnav">
+                <a href="#" class="subnavbtn">Info <i class="fa fa-caret-down"></i></a>
+                <div class="subnav-content">
+                  <a href="#">Company</a>
+                  <a href="#">Team</a>
+                  <a href="#">Careers</a>
+                </div>
+            </li>
+            <li class="subnav">
+                <a href="#" class="subnavbtn">About<i class="fa fa-caret-down"></i></a>
+                <div class="subnav-content">
+                  <a href="#">Name</a>
+                  <a href="#">Employee-No</a>
+                  <a href="#">Team-No</a>
+                </div>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+           </div>
+           <li class="search-icon">
+              <input type="text" placeholder="Search.." >
+              <label class="icon">
+              <span class="fas fa-search"></span>
+              </label>
+           </li>
+        </ul>
+     </nav>
+</body>
+
+</html>
